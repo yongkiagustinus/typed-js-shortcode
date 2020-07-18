@@ -1,4 +1,4 @@
-=== Typed JS Shortcode ===
+=== Animated Typed JS Shortcode ===
 Contributors: yongkiagustinus
 Tags: Shortcode, Animation, jQuery, Typography
 Donate link: https://paypal.me/yongki
@@ -14,7 +14,7 @@ This plugin add shortcode to create an animated typing effect with Typed JS. No 
 == Description ==
 Create an animated typing effect with [Typed.js](https://github.com/mattboldt/typed.js) easily.
 
-Just install and activate, **Typed JS Shortcode** plugin and you can start using `[typedjs][/typedjs]` shortcode to create your animated typing text.
+Just install and activate, **Animated Typed JS Shortcode** plugin and you can start using `[typedjs][/typedjs]` shortcode to create your animated typing text.
 
 No settings needed just plug and play.
 
@@ -49,7 +49,7 @@ Here are the list of all available attributes that you can use:
 Thanks to [Matt Boldt](https://mattboldt.com/) for creating this cool library [Typed.js](https://github.com/mattboldt/typed.js)!
 
 == Installation ==
-1. Upload "typed-js-shortcode" folder to the "/wp-content/plugins/" directory.
+1. Upload "animated-typed-js-shortcode" folder to the "/wp-content/plugins/" directory.
 1. Activate the plugin through the "Plugins" menu in WordPress.
 
 == Frequently Asked Questions ==

@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Typed JS Shortcode
+ * Plugin Name: Animated Typed JS Shortcode
  * Plugin URI: https://yongki.id/
  * Description: This plugin add shortcode to create an animated typing effect with Typed JS. No settings needed, just plug and play.  
  * Version: 1.0
@@ -9,7 +9,7 @@
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.en.html
  * Domain Path: /languages
- * Text Domain: typed-js-shortcode
+ * Text Domain: animated-typed-js-shortcode
  */
 
 /*
@@ -31,11 +31,11 @@
 
 if ( ! defined( 'ABSPATH' ) ) { die( 'Forbidden' ); }
 
-define( 'TYPEDJSSHORTCODE_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
-define( 'TYPEDJSSHORTCODE_PLUGIN_URI', plugin_dir_url( __FILE__ ) );
+define( 'ANIMATEDTYPEDJSSHORTCODE_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
+define( 'ANIMATEDTYPEDJSSHORTCODE_PLUGIN_URI', plugin_dir_url( __FILE__ ) );
 
 
-class TypedJSShortcode {
+class AnimatedTypedJSShortcode {
 	function __construct(){
 		if( is_admin() ){
 			add_action( 'plugins_loaded', array( $this, 'load_textdomain' ) );
@@ -52,7 +52,7 @@ class TypedJSShortcode {
 	 * @since 1.0
 	 */
 	public static function load_textdomain(){
-		load_plugin_textdomain( 'typed-js-shortcode', false, basename( TYPEDJSSHORTCODE_PLUGIN_DIR ) . '/languages' );
+		load_plugin_textdomain( 'typed-js-shortcode', false, basename( ANIMATEDTYPEDJSSHORTCODE_PLUGIN_DIR ) . '/languages' );
 	}
 
 	/**
@@ -61,7 +61,7 @@ class TypedJSShortcode {
 	 * @since 1.0
 	 */
 	public static function enqueue(){
-		wp_enqueue_script( 'typedjsshortcode', TYPEDJSSHORTCODE_PLUGIN_URI . 'js/typed.min.js', array(), '2.0.11', false );
+		wp_enqueue_script( 'typedjsshortcode', ANIMATEDTYPEDJSSHORTCODE_PLUGIN_URI . 'js/typed.min.js', array(), '2.0.11', false );
 	}
 
 	/**
@@ -120,4 +120,4 @@ class TypedJSShortcode {
 	}
 }
 
-$TypedJSShortcode = new TypedJSShortcode();
+$AnimatedTypedJSShortcode = new AnimatedTypedJSShortcode();
