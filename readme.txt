@@ -43,6 +43,7 @@ Here are the list of all available attributes that you can use:
 * `fadeoutdelay` : Time before fade out in milliseconds (default: 500)
 * `loop` : Loop strings animation (default: false)
 * `loopcount` : Amount of loops if enabled (default: Infinity)
+* `showcursor` : Show/hide cursor (default: true)
 * `cursorchar` : Character to be used as cursor (default: |)
 
 = CREDITS =

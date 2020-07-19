@@ -88,6 +88,7 @@ class AnimatedTypedJSShortcode {
 			'fadeoutdelay'		=> 500,
 			'smartbackspace'	=> 'true',
 			'shuffle'			=> 'false',
+			'showcursor'		=> 'true',
 			'cursorchar'		=> '|',
 		), $atts, 'typedjs' );
 
@@ -112,6 +113,7 @@ class AnimatedTypedJSShortcode {
 				fadeOutDelay: <?php echo $atts['fadeoutdelay']; ?>,
 				smartBackspace: <?php echo $atts['smartbackspace']; ?>,
 				shuffle: <?php echo $atts['shuffle']; ?>,
+				showCursor: <?php echo $atts['showcursor']; ?>,
 				cursorChar: "<?php echo $atts['cursorchar']; ?>"
 			});
 			</script>
