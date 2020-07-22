@@ -57,9 +57,6 @@ Thanks to [Matt Boldt](https://mattboldt.com/) for creating this cool library [T
 = How do i get support? =
 You can get support by going to Support section of this plugin page
 
-== Screenshots ==
-1. Typed JS Shortcode
-
 == Upgrade Notice ==
 Keep your plugin up to date to get the latest features & the best performance
 
